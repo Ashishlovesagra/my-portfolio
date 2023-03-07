@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+.contact-mainbox{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.first-logo{
+    margin-left: 100px;
+}
+.contact-title{
+    height: 100px;
+    margin-top: 12px;
+}
+.contact-name{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.email{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.contact-email{
+    font-size: 28px;
+    color: #9c069c;
+    margin-left: 70px;
+}
+.second-logo{
+    position: absolute;
+    margin-left: 15px;
+}
+.whatsapp{
+    height: 60px;
+}
+.whatImg{
+    width: 50px;
+    margin-left: 24px;
+}
+.contact-whats{
+    font-size: 28px;
+    margin-left: 100px;
+}
+.phone{
+    height: 60px;
+}
+.linkedin{
+    height: 60px;
+}
+.insta{
+    height: 60px;
+}
+.facebook{
+    height: 60px;
+}
+.contactbox{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 4%;
+}

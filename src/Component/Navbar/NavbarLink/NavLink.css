@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+.navbar-link li{
+    list-style: none;
+    margin: auto;
+    font-size: 30px;   
+}
+.navbar-link{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -60px;
+    
+}
+.navbar-link li a{
+    text-decoration: none;
+    
+}
