@@ -1,38 +1,67 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.education-mainBox{
+.education-mainBox {
   width: 80%;
   height: 680px;
   margin-left: 10%;
   margin-top: 35px;
 }
-.educat{
+.educat {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.class {
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+.schoolname {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: green;
+}
+.btach {
+  font-size: 24px;
+  color: darkorchid;
+  margin-bottom: 5px;
+}
+.result {
+  font-size: 18px;
+  color: slategray;
+  margin-bottom: 5px;
+}
+.passout {
+  font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .education-mainBox {
+    width: 80%;
+    height: 680px;
+    margin-left: 10%;
+    margin-top: 35px;
+  }
+  .educat {
     width: 90%;
     margin-left: 5%;
     margin-top: 30px;
-}
-.class{
-    font-size: 40px;
+  }
+  .class {
+    font-size: 32px;
     text-align: center;
     font-family: monospace;
-    margin-bottom: 15px;
-}
-.schoolname{
-    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .schoolname {
+    font-size: 20px;
     margin-bottom: 10px;
-    color: green;
-}
-.btach{
-    font-size: 24px;
-    color: darkorchid;
+    color: blue;
+  }
+  .btach {
+    font-size: 20px;
+    color: #0a000f;
     margin-bottom: 5px;
-}
-.result{
-    font-size: 18px;
-    color: slategray;
-    margin-bottom: 5px;
-}
-.passout{
-    font-size: 18px;
+  }
 }

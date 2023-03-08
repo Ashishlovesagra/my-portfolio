@@ -45,5 +45,30 @@
   background-color: green;
   border: 2px solid black;
 }
-
-
+@media screen and (max-width: 500px){
+  .introduction-mainBox {
+    width: 95%;
+    height: 680px;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+  .introduction-mainBox h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 32px;
+    margin-left: 10px;
+  }
+  .introduction-mainBox p {
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .skillcontainer {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .skillItem {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+}

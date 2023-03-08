@@ -20,3 +20,25 @@
     width: 100%;
     height: 40px;
 }
+@media screen and (max-width: 500px) {
+    .navbarlink{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbarlogo-main{
+        width: 125%;
+        height: 140px;
+        display: flex;
+        background-color: aqua;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        background-image: url(../../Images/Logo.png);
+        background-size: cover;
+        margin-left: 25px;
+        margin-top: 24px;
+        border-radius: 50px;
+    }
+  }

@@ -60,3 +60,50 @@
     margin-left: 15%;
     margin-top: 4%;
 }
+@media screen and (max-width: 500px){
+    .contact-mainbox{
+        width: 90%;
+        margin-left: 2%;
+        margin-top: 10px;
+    }
+    
+    .first-logo{
+        margin-left: 10px;
+    }
+    .contact-title{
+        height: 100px;
+        margin-top: 12px;
+    }
+    .contact-name{
+        font-size: 26px;
+        margin-left: 15px;
+    }
+    .email{
+        height: 60px;
+        margin-left: 0px;
+    }
+    .contact-email{
+        font-size: 24px;
+        color: #9c069c;
+        margin-left: 70px;
+    }
+    .second-logo{
+        position: absolute;
+        margin-left: 15px;
+    }
+    .whatsapp{
+        height: 60px;
+    }
+    .whatImg{
+        width: 40px;
+        margin-left: 0px;
+    }
+    .contact-whats{
+        font-size: 20px;
+    }
+    .contactbox{
+        width: 90%;
+    margin-left: 5%;
+    }
+
+}

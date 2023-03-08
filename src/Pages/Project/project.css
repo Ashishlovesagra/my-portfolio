@@ -50,3 +50,53 @@
     font-family: monospace;
     margin-top: 10px;
   }
+  @media screen and (max-width: 500px){
+    .project-mainbox{
+      width: 80%;
+      height: 580px;
+      margin-left: 10%;
+      margin-top: 35px;
+    }
+    .projectBox{
+      width: 100%;
+      height: 250px;
+    }
+    .project-title{
+      width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: left;
+    color: orangered;
+    }
+    .project-short{
+      width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Fira Sans';
+    text-align: left;
+    margin-top: 24px;
+    }
+    .project-btn{
+      width: 200px;
+      height: 50px;
+      border-radius: 35px;
+      font-size: 20px;
+      margin-left: 30px;
+      cursor: pointer;
+      background-color: white;
+    }
+    .project-btn:hover{
+      color: white;
+      background-color: black;
+    }
+    .pro-btn{
+      margin-top: 20px;
+    display: flex;
+    margin-left: -10%;
+    }
+    .projecttitlename{
+      font-size: 36px;
+    font-family: monospace;
+    margin-top: 0px;
+    }
+  }
