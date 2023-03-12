@@ -14,7 +14,7 @@ function Project() {
         <div className="pro-btn">
         <div className="project-repo"><a href="https://github.com/Ashishlovesagra/blog-react-app" 
         target="_blank" rel='noreferrer'><button className='project-btn'>Project RepoLink</button></a></div>
-        <div className="project-deploy"><a href="https://app.netlify.com/sites/thriving-daffodil-acf12a/overview" target="_blank" rel='noreferrer'><button className='project-btn'>Deploy Link</button></a></div>
+        <div className="project-deploy"><a href="https://thriving-daffodil-acf12a.netlify.app/" target="_blank" rel='noreferrer'><button className='project-btn'>Deploy Link</button></a></div>
         </div>
       </div>
       <div className="projectBox">
