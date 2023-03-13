@@ -13,10 +13,10 @@ function Home() {
                 <div className="name">Ashish Kumar Singh</div>
                 <div className="about">Full Stack Web Developer</div>
                 <div className="moreabout"></div>
-                <div className="buttons">
-                    <a href="/" target="_blank"><button className="btn">Download CV</button></a>
-                    <a href="/"><button className="btn">Contact Me</button></a>
-                </div>
+//                 <div className="buttons">
+//                     <a href="/" target="_blank"><button className="btn">Download CV</button></a>
+//                     <a href="/"><button className="btn">Contact Me</button></a>
+//                 </div>
             </div>
             <div className="devPic"></div>
         </div>
