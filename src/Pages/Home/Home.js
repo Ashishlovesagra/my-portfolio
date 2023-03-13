@@ -16,7 +16,7 @@ function Home() {
                 <div className="moreabout"></div>
                 <div className="buttons">
                     {/* <a href="/" target="_blank"><button className="btn">Download CV</button></a> */}
-                    <Link href="/contact"><button className="btn">Contact Me</button></Link>
+                    <Link to="/contact"><button className="btn">Contact Me</button></Link>
                 </div>
             </div>
             <div className="devPic"></div>
