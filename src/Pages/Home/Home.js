@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Navbar from '../../Component/Navbar/Navbar';
 import './Home.css';
 
@@ -14,8 +15,8 @@ function Home() {
                 <div className="about">Full Stack Web Developer</div>
                 <div className="moreabout"></div>
                 <div className="buttons">
-                    <a href="/" target="_blank"><button className="btn">Download CV</button></a>
-                    <a href="/"><button className="btn">Contact Me</button></a>
+                    {/* <Link href="../../Utillity/Ashish_singhCv.pdf" target="_blank"><button className="btn">Download CV</button></Link> */}
+                    <Link to="/contact"><button className="btn">Contact Me</button></Link>
                 </div>
             </div>
             <div className="devPic"></div>
