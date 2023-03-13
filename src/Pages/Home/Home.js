@@ -15,8 +15,8 @@ function Home() {
                 <div className="about">Full Stack Web Developer</div>
                 <div className="moreabout"></div>
                 <div className="buttons">
-                    {/* <Link href="../../Utillity/Ashish_singhCv.pdf" target="_blank"><button className="btn">Download CV</button></Link> */}
-                    <Link to="/contact"><button className="btn">Contact Me</button></Link>
+                    <a href="/" target="_blank"><button className="btn">Download CV</button></a>
+                    <Link href="/"><button className="btn">Contact Me</button></Link>
                 </div>
             </div>
             <div className="devPic"></div>
