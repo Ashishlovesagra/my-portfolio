@@ -65,7 +65,7 @@
   height: 58vh;
   width: 250px;
   background-image: url(../../Images/AshishImg.png);
-  background-size: contain;
+  background-size: cover;
 }
 @media screen and (max-width: 500px) {
   .home-container {
